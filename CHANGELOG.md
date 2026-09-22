@@ -4,6 +4,8 @@
 
 ### Fixed
 
+- Claude: include claude-swap session homes in local Usage & Spend totals without counting shared or copied history twice (#2954). Thanks @Newarr!
+
 - LiteLLM: show clearly scoped month-to-date spend when management routes are disabled, without inventing budgets or account identity (#3834). Thanks @xiaoxianma!
 
 - Codex: confirm unused weekly resets across normal refresh intervals when the provider advances the reset date with each zero-use observation, preventing stale pre-reset usage from persisting (#3248). Thanks @kcharlan!
