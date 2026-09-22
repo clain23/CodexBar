@@ -4,6 +4,8 @@
 
 ### Fixed
 
+- OpenCode Go: use per-account API keys for multi-account usage, preserving Cookie accounts and isolating selected credentials from provider-wide keys (#3841).
+
 - Claude: include claude-swap session homes in local Usage & Spend totals without counting shared or copied history twice (#2954). Thanks @Newarr!
 
 - LiteLLM: show clearly scoped month-to-date spend when management routes are disabled, without inventing budgets or account identity (#3834). Thanks @xiaoxianma!
