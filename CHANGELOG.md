@@ -4,6 +4,8 @@
 
 ### Fixed
 
+- Claude: respect read-only account adapters, preserving usage and account details while hiding switching and re-authentication actions (#3658). Thanks @benedictfrancis!
+
 - OpenCode Go: use per-account API keys for multi-account usage, preserving Cookie accounts and isolating selected credentials from provider-wide keys (#3841).
 
 - Claude: include claude-swap session homes in local Usage & Spend totals without counting shared or copied history twice (#2954). Thanks @Newarr!
