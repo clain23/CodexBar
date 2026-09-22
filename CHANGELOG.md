@@ -4,6 +4,9 @@
 
 ### Fixed
 
+- Cost history: reuse quota-week projections across menu card builds and warm them off the main thread (#3831, fixes #3827). Thanks @giuseppebisemi!
+- Codex costs: reuse decoded scan baselines while the local database is unchanged, avoiding repeated usage-row decoding on warm refreshes (#3840). Thanks @CodingCanuck!
+
 - Antigravity: retain account-scoped quota observations without a reset duration, including replenishment within an hour, and avoid assuming a five-hour pace (#3619). Thanks @hhh2210!
 
 - Antigravity: honor unusable `ANTIGRAVITY_CLI_PATH` overrides instead of discovering another CLI that could start interactive login during background refresh (#3689). Thanks @hhh2210!
