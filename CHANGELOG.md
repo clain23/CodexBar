@@ -4,6 +4,8 @@
 
 ### Fixed
 
+- Antigravity: honor unusable `ANTIGRAVITY_CLI_PATH` overrides instead of discovering another CLI that could start interactive login during background refresh (#3689). Thanks @hhh2210!
+
 - Claude: respect read-only account adapters, preserving usage and account details while hiding switching and re-authentication actions (#3658). Thanks @benedictfrancis!
 
 - OpenCode Go: use per-account API keys for multi-account usage, preserving Cookie accounts and isolating selected credentials from provider-wide keys (#3841).
