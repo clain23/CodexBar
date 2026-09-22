@@ -4,6 +4,8 @@
 
 ### Fixed
 
+- Provider plugins: preserve unknown usage on named quota windows and numeric progress in detail rows.
+
 - Claude: dismiss open CLI panels before reading account identity or refreshing usage in a reused session (#3821). Thanks @sczhui!
 
 - Performance: reuse code-signature checks across browser-cookie preflights, coalesce concurrent checks, and revalidate after app updates while preserving no-UI Keychain access (#3837, #3838). Thanks @jeffloo886!
