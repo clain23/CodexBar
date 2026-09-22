@@ -1,0 +1,37 @@
+[
+  {
+    "event": "before-expanded-restart",
+    "pid": 1787,
+    "utc": "2026-09-22T18:20:55.231205+00:00",
+    "persistedExpandedIDs": "(\n        {\n        opaqueID = 2;\n        source = \"claude-swap\";\n    }\n)\n"
+  },
+  {
+    "event": "launch",
+    "pid": 18498,
+    "timestamp": "2026-09-22T18:20:55Z"
+  },
+  {
+    "event": "after-expanded-restart-screenshot",
+    "pid": 18498,
+    "utc": "2026-09-22T18:21:32.885157+00:00",
+    "executable": "CodexBar.app/Contents/MacOS/CodexBar",
+    "persistedExpandedIDs": "(\n        {\n        opaqueID = 2;\n        source = \"claude-swap\";\n    }\n)\n"
+  },
+  {
+    "event": "before-collapsed-restart",
+    "pid": 18498,
+    "utc": "2026-09-22T18:23:22.723842+00:00",
+    "persistedExpandedIDs": "(\n)\n"
+  },
+  {
+    "event": "launch",
+    "pid": 77285,
+    "timestamp": "2026-09-22T18:23:22Z"
+  },
+  {
+    "event": "after-collapsed-restart-screenshot",
+    "pid": 77285,
+    "utc": "2026-09-22T18:24:01.424768+00:00",
+    "persistedExpandedIDs": "(\n)\n"
+  }
+]
